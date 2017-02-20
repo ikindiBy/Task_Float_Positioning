@@ -1,0 +1,158 @@
+body{
+font:12px Myriad Pro, Tahoma;
+color:#123123;
+padding:0px;
+margin:0px;
+height: 2000px;
+}
+
+p, article {
+	margin: 0px;
+}
+
+header {
+	display: block;
+	font-size: 27px;
+	margin-bottom: 10px;
+}
+
+.content {
+	margin: 150px auto;
+	width: 550px;
+	height: 750px;
+	position: relative;
+	}
+
+.first_page, .second_page,.third_page{
+	width: 490px;
+	height: 690px;
+	padding: 30px;
+	border:2px solid #000000;
+	text-align: left;
+	position: absolute;
+	}
+
+
+.first_page{
+	background-color: rgb(235,235,235); 
+	bottom: 0px;
+	right: 0px;
+	}
+
+.second_page{
+	background-color: rgb(204,204,204); 
+	bottom: -20px;
+	right: -20px;
+}
+
+.third_page{
+	background-color: rgb(172,172,172); 
+	bottom: -40px;
+	right: -40px;
+}
+
+.mark_first, .mark_second, .mark_third{
+	border:2px solid #000000;
+	position: absolute;
+	}
+
+.mark_first{
+	width: 110px;
+	height: 32px;
+	background-color: rgb(246,142,86); 
+	top: 38px;
+	right: -86px;
+	border-radius: 0 10px 10px 0;
+	}
+
+.mark_second{
+	width: 70px;
+	height: 24px;
+	background-color: rgb(57,181,74); 
+	top: 72px;
+	right: -74px;
+	border-radius: 0 0 10px 0;
+	}	
+
+.mark_third{
+	width: 35px;
+	height: 24px;
+	background-color: rgb(0,174,239); 
+	top: 98px;
+	right: -59px;
+	border-radius: 0 0 10px 0;
+	}	
+
+.share{
+	width: 90px;
+	height: 70px;
+	border:1px solid #000000;
+	background-color: rgb(251,175,93); 
+	position: fixed;
+	right: 0px;
+	top: 80%;
+	}
+
+.share p{
+	font-size: 1.2em;
+	position: relative;
+	top: 12px;
+	text-align: center;
+	}
+
+.share img{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 8px;
+	}
+
+.socNet{
+	position: relative;
+	top: 18px;
+	}
+
+#img_cup{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+#img_tshrt{
+	float: right;
+	margin-left: 5px;
+}
+
+.block_foto  {
+	float: right;
+}
+
+.block_foto  h4{
+font-size: 18px;
+font-weight: normal;
+
+}
+
+.block_foto img {
+	width: 200px;
+	height: 90px;
+	margin-bottom: 10px;
+}
+
+.block_foto img:nth-child(2n) {
+	float: right;
+	margin-left: 75px;
+}
+
+footer{
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	padding: 15px;
+}
+
+article, #img_tshrt{
+	display: block;
+	margin-top: 15px;
+} 
